@@ -1,6 +1,13 @@
-var loopers = prompt('Give me a letter');
+var newName = prompt('Enter a letter:');
+
+var i;
+
+var j;
 
 for (i = 0; i < 10; i++) {
-  document.write(loopers);
+
+  for (j = 0; j <= i; j++) {
+    document.write(newName);
+  }
   document.write('<br>');
 }
